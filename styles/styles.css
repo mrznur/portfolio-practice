@@ -1,3 +1,10 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 400;
+}
 nav {
     display: flex;
     align-items: center;
@@ -16,6 +23,7 @@ nav {
 .nav-title {
     font-weight: 800;
     font-size: 45px;
+    color: #181818;
 }
 
 .text-primary {
@@ -62,10 +70,14 @@ nav ul {
 .banner-title {
     font-weight: bold;
     font-size: 85px;
+    color: #181818;
 }
 .banner-img{
     width: 580px;
 
+}
+.banner-des{
+    color: #181818;
 }
 .banner{
     display: flex;
@@ -79,4 +91,80 @@ nav ul {
     background-image: url(/images/developer.png), url(/images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+
+}
+.section-des{
+    font-size: 18px;
+    color: #181818;
+}
+.secondary-bg{
+    color: #fff8f3;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-item{
+    color: #181818;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-des{
+    font-weight: bold;
+    color: #181818;
+}
+.text-center{
+    text-align: center
+}
+.skill-cont{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.resume-cont{
+    display: flex;
+    gap: 24px;
+}
+
+.experience-des{
+    columns: #757575;
+}
+.resume hr{
+    margin: 30px;
+}
+.btn-cv{
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    font-weight: bolder;
+    padding: 18px 35px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;    
+}
+.resume-btn{
+    margin-top: 50px;
+}
+.text-left{
+    text-align: left;
 }

@@ -4,6 +4,7 @@
     font-style: normal;
     font-variation-settings:
         "wdth" 400;
+    color: #181818;
 }
 nav {
     display: flex;
@@ -129,6 +130,9 @@ main section{
     font-weight: bold;
     color: #181818;
 }
+.do-des{
+    text-align: center;
+}
 .text-center{
     text-align: center
 }
@@ -167,4 +171,22 @@ main section{
 }
 .text-left{
     text-align: left;
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 200px;
+}
+.footer-col{
+    width: 50%;
+}
+input[type="text"], input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: #fff8f3;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    border: none;
 }
